@@ -60,3 +60,10 @@ num1=[22,11,55,44]
 num1.sort(reverse=True)
 print(num1)
 
+
+a=['290 University Dr, Suite I-2', 'Madison, AL, 35806']
+b=a[1].split(',')
+print("b",b)
+city,state=[b[0]],[b[1]]
+print(city)
+print(state)
