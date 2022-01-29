@@ -58,7 +58,9 @@ num.sort
 print("sort",num)
 num1=[22,11,55,44]
 num1.sort(reverse=True)
-print(num1)
+print("num",num1)
+num1[1]=66
+print("num1",num1)
 
 
 a=['290 University Dr, Suite I-2', 'Madison, AL, 35806']
