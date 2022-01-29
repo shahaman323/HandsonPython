@@ -6,7 +6,7 @@
 #     Tuple is a collection which is ordered and unchangeable. Allows duplicate members.
 #     Set is a collection which is unordered, unchangeable*, and unindexed. No duplicate members.
 #     Dictionary is a collection which is ordered** and changeable. No duplicate members.
-
+# in list we use []
 
 num=[11,22,33,44,55]
 print(num)
