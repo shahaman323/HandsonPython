@@ -69,3 +69,8 @@ print("b",b)
 city,state=[b[0]],[b[1]]
 print(city)
 print(state)
+# state = location[0] if len(location) > 0 else None
+location = ['aman']
+state = location[0] if location  else None
+print(state)
+
